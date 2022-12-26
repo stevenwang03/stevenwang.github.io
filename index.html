@@ -33,6 +33,7 @@
         <a href="#home-section" class="logo"><img src="images/logo.png" id="logo-icon"></a>
         <a onclick="darkLight()" class="nav-item left" id="toggle">🌙</a>
         <a href="#project-section" class="nav-item left">PROJECTS</a>
+        <a href="#experience-section" class="nav-item left">EXPERIENCE</a>
         <a href="#education-section" class="nav-item left">EDUCATION</a>
         <a href="#about-section" class="nav-item left">PROFILE</a>
     </div>
@@ -47,7 +48,6 @@
                     <div class="container column" id="landing-text">
                         <h1 class="title">STEVEN WANG</h1>
                         <p class="sub">welcome to my personal corner of the internet</p>
-                        <!--<p id="app"></p>-->
                     </div>
                 </div>
                 <a href="#about-section" class="arrow"></a>
@@ -58,15 +58,19 @@
         <section class="container column" id="about-section">
             <h1 class="subtitle">PROFILE</h1>
             <div class="container row" id="img-console">
-                <p id="about">Hi there! My name is Steven Wang, and I'm just your good ole-fashioned computer 
-                    scientist from middle-of-nowhere Minnesota. As of now, I'm a sophomore at Columbia University studying
-                    both computer science and linguistics because it's what I love to do! Perhaps I'm biting off 
-                    more than I can chew, which is probably why I can't keep everything straight. But, it's probably more
+                <p id="about">Hi there! My name is Steven Wang, and I'm just your good ole-fashioned computer
+                    scientist from middle-of-nowhere Minnesota. As of now, I'm a sophomore at Columbia University
+                    studying
+                    both computer science and linguistics because it's what I love to do! Perhaps I'm biting off
+                    more than I can chew, which is probably why I can't keep everything straight. But, it's probably
+                    more
                     because of my how fast my mind is moving: I'm always trying to invent, ideate, and think of the next
                     BIG thing. <br>
                     <br>
-                    Outside of coding, my passions include speaking and reading in the Czech language (mluvím česky!), buying 
-                    copious amounts of silver rings, and eating shrimp tacos (I'm allergic!). Let's just say I know a thing or
+                    Outside of coding, my passions include speaking and reading in the Czech language (mluvím česky!),
+                    buying
+                    copious amounts of silver rings, and eating shrimp tacos (I'm allergic!). Let's just say I know a
+                    thing or
                     two about variety ;)<br>
                     <br>
                     <br>
@@ -78,47 +82,104 @@
 
         <!--Education Section-->
         <section class="container column parallax" id="education-section">
-            <div class="container column" id="text">
-                <h1 class="subtitle">EDUCATION</h1>
-                <div class="container row" id="education-title">
-                    <img src="images/logo.png">
-                    <div class="container column" id="school">
-                        <h2>Columbia University in the City of New York</h2>
-                        <h3>Bachelors in Computer Science and Linguistics</h3>
-                        <p>Expected Graduation: May 2025</p>
+            <h1 class="subtitle">EDUCATION</h1>
+            <br>
+            <br>
+            <div class="container row" id="table">
+                <div class="container column" id="text-top">
+                    <div class="container row" id="education-title">
+                        <img src="images/columbia.png">
+                        <div class="container column" id="school">
+                            <h2>Columbia University in the City of New York</h2>
+                            <h3>Bachelors in Computer Science and Linguistics</h3>
+                            <p>Expected Graduation: May 2025</p>
+                            <p>GPA: 4.0 </p>
+                        </div>
+                    </div>
+                    <div class="container column" id="coursework">
+                        <h4>Relevant Coursework:</h4>
+                        <ul>
+                            <a>- Advanced Programming in C</a><br>
+                            <a>- Data Structures and Algorithms in Java</a><br>
+                            <a>- Fundamentals of Computer Systems</a><br>
+                            <a>- Computer Science Theory</a><br>
+                            <a>- Introduction to Applied Math</a><br>
+                            <a>- Calculus III</a><br>
+                        </ul>
+                        <p id="progress">*in progress</p>
                     </div>
                 </div>
-                <div class="container column" id="coursework">
-                    <h4>Relevant Coursework:</h4>
-                    <p>Computer Science</p>
-                    <ul>
-                        
-                    </ul>
-                    <p>Data Science</p>
-                    <ul>
-                        
-                    <p id="progress">*in progress</p>
+
+                <div class="container column" id="text">
+                    <div class="container row" id="education-title">
+                        <img src="images/minnetonka.png">
+                        <div class="container column" id="school">
+                            <h2>Minnetonka High School</h2>
+                            <h3>Graduated June 2021</h3>
+                            <p>GPA: 4.6 | Summa Cum Laude</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <!--Experience Section-->
+        <section id="experience-section">
+            <h1 class="subtitle">EXPERIENCE</h1>
         </section>
 
         <!--Project Section-->
         <section class="container column" id="project-section">
             <h1 class="subtitle">PROJECTS</h1>
 
-            <!--Filter Buttons-->
-            <div class="contianer row" id="button-section">
-                <button class="filter-button active" onclick="filterSelection('all')">All</button>
-                <button class="filter-button" onclick="filterSelection('python')">Python</button>
-                <button class="filter-button" onclick="filterSelection('data')">Data</button>
-                <button class="filter-button" onclick="filterSelection('java')">Java</button>
-                <button class="filter-button" onclick="filterSelection('web')">Web Dev</button>
-            </div>
-
             <!--Individual Projects-->
-           
-        </section>
+            <section class="project">
+                <div class="project-row">
+                    <div class="project-col">
+                        <img src="images/spec-sources.png">
+                        <div class="layer">
+                            <h3><a href="https://linuxhint.com/fork_linux_system_call_c/">Spectator's Sources</a></h3>
+                        </div>
+                    </div>
+                    <div class="project-col">
+                        <img src="images/home/sectionio.png">
+                        <div class="layer">
+                            <h3><a
+                                    href="https://www.section.io/engineering-education/fork-in-c-programming-language/">section.io</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="project-col">
+                        <img src="images/home/code-vault.png">
+                        <div class="layer">
+                            <h3><a href="https://www.youtube.com/watch?v=cex9XrZCU14">Code Vault's Youtube Video</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="project-row">
+                    <div class="project-col">
+                        <img src="images/linux-man.png">
+                        <div class="layer">
+                            <h3><a href="https://man7.org/linux/man-pages/man2/fork.2.html">Linux Manual Page</a></h3>
+                        </div>
+                    </div>
+                    <div class="project-col">
+                        <img src="images/home/gforg.png">
+                        <div class="layer">
+                            <h3><a href="https://www.geeksforgeeks.org/fork-system-call/">Geeks for Geeks</a></h3>
+                        </div>
+                    </div>
+                    <div class="project-col">
+                        <img src="images/home/tutorialsp.png">
+                        <div class="layer">
+                            <h3><a href="https://www.tutorialspoint.com/fork-in-c">tutorialspoint.com</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
 
         <!--Footer/Contact-->
         <section class="container column" id="footer">
@@ -132,7 +193,7 @@
                 <a href="mailto:slw2182@columbia.edu" target="_blank">Email</a>
             </div>
             <div>
-                <p id="copyright">Copyright © 2022 Steven Wang. All Rights Reserved. (this is indeed fake) </p>
+                <p id="copyright">Copyright © 2022 Steven Wang. All Rights Reserved. (this is indeed false) </p>
             </div>
         </section>
 
