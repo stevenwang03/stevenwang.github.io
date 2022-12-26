@@ -368,10 +368,28 @@ ul {
 #progress {
 	font-size: 80%;
 }
+
 /**Experience**/
 
+.sub-title {
+	text-align: center;
+	letter-spacing: 2px;
+	max-width: 100%;
+	font-size: 175%;
+	margin-bottom: 5%;
+}
+
+#experience-section .subtitle {
+	font-size: 150%;
+	font-family: Monaco, monospace;
+}
+
+#text .subtitle {
+	margin-bottom: 40px;
+}
+
 #experience-title {
- align-items: center;
+	align-items: center;
 }
 
 #experience-section {
@@ -382,8 +400,32 @@ ul {
 	align-items: center;
 }
 
-/**Projects**/
+#work {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: white;
+	margin: 5%;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+		rgba(17, 17, 26, 0.1) 0px 16px 56px, #ffd4c3 10px 10px 5px;
+	font-size: 120%;
+}
 
+#yuh {
+	width: 15%;
+}
+
+#omg {
+	width: 40%;
+}
+
+
+/**Projects**/
 
 .project-row{
 	display: flex;
@@ -441,7 +483,7 @@ ul {
 }
 
 .layer:hover h3{
-	bottom: 14%;
+	bottom: 6%;
 	opacity: 1;
 }
 
