@@ -336,7 +336,11 @@ a:hover {
 	padding: 50px;
 	padding-bottom: 80px;
 	min-height: 100vh;
-	background-color: #f8f8f8;
+	background-color: #575757;
+}
+
+#ed {
+	color: white;
 }
 
 #education-title img {
@@ -371,6 +375,10 @@ ul {
 
 /**Experience**/
 
+#experience-section h3 {
+	font-weight: bold;
+}
+
 .sub-title {
 	text-align: center;
 	letter-spacing: 2px;
@@ -401,6 +409,7 @@ ul {
 }
 
 #work {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
