@@ -11,8 +11,6 @@ html {
 	padding: 0;
 }
 
-
-
 h1 {
 	font-family: nobel, sans-serif;
 	font-weight: 300;
@@ -91,7 +89,7 @@ a:hover {
 
 .logo {
 	float: left;
-	
+
 	display: block;
 	text-align: center;
 	padding: 15px;
@@ -436,12 +434,12 @@ ul {
 
 /**Projects**/
 
-.project-row{
+.project-row {
 	display: flex;
 	justify-content: space-between;
 }
 
-.project{
+.project {
 	width: 80%;
 	margin: auto;
 	text-align: center;
@@ -452,7 +450,9 @@ ul {
 	font-size: 60%;
 }
 
-.project-col{
+.project-col {
+	border-style: solid;
+	border-width: 2px;
 	flex-basis: 32%;
 	border-radius: 10px;
 	margin-bottom: 30px;
@@ -460,13 +460,13 @@ ul {
 	overflow: hidden;
 }
 
-.project-col img{
-	height: 100%;
+.project-col img {
+	height: 370px;
 	width: 100%;
 	display: block;
 }
 
-.layer{
+.layer {
 	background: transparent;
 	height: 100%;
 	width: 100%;
@@ -476,11 +476,11 @@ ul {
 	transition: 0.5s;
 }
 
-.layer:hover{
-   background:#ffeee8;
+.layer:hover {
+	background: #ffeee8;
 }
 
-.layer h3{
+.layer h3 {
 	width: 100%;
 	font-weight: 500;
 	color: #575757;
@@ -488,15 +488,15 @@ ul {
 	bottom: 0;
 	position: absolute;
 	opacity: 0;
-	transition: 0.5s;
+	transition: 0.7s;
 }
 
-.layer:hover h3{
-	bottom: 6%;
+.layer:hover h3 {
+	bottom: 32%;
 	opacity: 1;
 }
 
-.layer a{
+.layer a {
 	color: #575757;
 }
 
